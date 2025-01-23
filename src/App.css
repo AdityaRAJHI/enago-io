@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: red;
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.auth button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.register {
+  background-color: transparent;
+  color: blue;
+  border: 1px solid blue;
+}
+
+.sign-in {
+  background-color: transparent;
+  color: blue;
+}
+
+.hero {
+  background: linear-gradient(to right, #4a148c, #c62828);
+  color: #fff;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+.input-group input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  width: 300px;
+}
+
+.input-group button {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.no-credit-card {
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.universities {
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+}
+
+.universities p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+.university-logos {
+  /* Add styles for logos */
+}
+
+.features {
+  padding: 50px 20px;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.feature-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 1em;
+  color: #666;
+}
+
+.literature-review {
+  padding: 50px 20px;
+}
+
+.copilot {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.copilot h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.copilot p {
+  font-size: 1.1em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.copilot button {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.find-papers {
+  padding: 50px 20px;
+}
+
+.testimonials {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.privacy-security {
+  padding: 50px 20px;
+}
+
+.privacy-security h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.privacy-security-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.privacy-security-item {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.privacy-security-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.privacy-security h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.privacy-security p {
+  font-size: 1em;
+  color: #666;
+}
+
+footer {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  width: 250px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 1em;
+  color: #666;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #666;
+}
